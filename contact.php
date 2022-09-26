@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Super-Market - Contact Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css"
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <?php include 'includes/login-navbar.php' ?>
-    <div class="container"><br><br><br><br>
-        <div class="row">
-            <div class="col-sm-10">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-sm-9">
                 <h1>LIVE SUPPORT</h1>
-                <h3>24 hours | 7 days a week | 365 days a year Live Technical Support</h3>
+                <h3 style="margin-bottom: 20px;">24 hours | 7 days a week | 365 days a year Live Technical Support</h3>
                 <div>
                     <p class="text-justify pe-5" align="justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. There are many variations of passages of Lorel Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                 </div>
             </div>
             <div class="col-sm-2">
-                <img align="right" src="assets/img/contact/contact-bg.jpeg" alt="contact us">
+                <img align="right w-100" src="assets/img/contact/contact-bg.jpeg" alt="contact us">
             </div>
+            <div class="col-sm-1"></div>
         </div><br>
 
 
-        <div class="row mb-3">
+        <div class="row mb-5">
             <div class="col-sm-8">
                 <h2>CONTACT US</h2>
 
@@ -65,8 +67,9 @@
                 <p>Phone:(00) 222 555 3333</p>
                 <p>Fax:(000) 222 55 33 6</p>
                 <p>Email: info@estore.com</p>
-                <p>Follow on: <a href="" class="text-decoration-none ms-2"><img src="assets/img/contact/instagram.png" alt=""> </a> 
-                <a href="" class="ms-3 text-decoration-none"><img src="assets/img/contact/linkedin.png" alt=""></a></p>
+                <p>Follow on: <a href="" class="text-decoration-none ms-2"><img src="assets/img/contact/instagram.png" alt=""> </a>
+                    <a href="" class="ms-3 text-decoration-none"><img src="assets/img/contact/linkedin.png" alt=""></a>
+                </p>
             </div>
         </div>
     </div>
