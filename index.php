@@ -1,3 +1,7 @@
+<?php
+include 'includes/common.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +37,11 @@
             </div>
         </div>
     </div>
-
+    <?php
+    if (isset($_GET["m"])) {
+        echo $_GET['m'];
+    }
+    ?>
     <div class="container">
         <h3 class="mt-5 text-center text-decoration-underline">My Smart Basket</h3>
         <hr>
